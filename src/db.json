@@ -1,0 +1,37 @@
+{
+    "items": [
+        {
+            "color": "red",
+            "Displacement": "803 cc",
+            "HorsePower": "73 hp (54 kW)",
+            "Torque": "67 Nm (49.0 lb-ft)",
+            "DryWeight": "175 Kg (386 lb)",
+            "SeatHeight": "805 mm (31.69 in)",
+            "Safety": "ABS",
+            "srcImg": "./red.png",
+            "number": "797"
+        },
+        {
+            "color": "black",
+            "Displacement": "821 cc",
+            "HorsePower": "109 hp (80 kW)",
+            "Torque": "86 Nm (63 lb-ft)",
+            "DryWeight": "180.5 Kg (398 lb)",
+            "SeatHeight": "805 mm (31.69 in)",
+            "Safety": "ABS",
+            "srcImg": "./black.png",
+            "number": "821"
+        },
+        {
+            "color": "grey",
+            "Displacement": "803 cc",
+            "HorsePower": "73 hp (54 kW)",
+            "Torque": "67 Nm (49.0 lb-ft)",
+            "DryWeight": "175 Kg (386 lb)",
+            "SeatHeight": "805 mm (31.69 in)",
+            "Safety": "ABS",
+            "srcImg": "./grey.png",
+            "number": "797"
+        }
+    ]
+}

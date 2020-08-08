@@ -1,0 +1,122 @@
+.section__container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 78px;
+}
+
+.section__wrapper {
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+html {
+    background-image: url('./img/backgroud.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__wrapper {
+    padding-top: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header__logo-link {
+    margin-right: 19%;
+}
+
+.menu {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    &__hamburger {
+        margin-top: 3px;
+        margin-right: auto;
+        position: relative;
+        width: 32px;
+        height: 22px;
+        cursor: pointer;
+
+        &-item {  
+            top: 50%;
+            transform: translateY(-50%);
+
+            &::after {
+                content: "";
+                bottom: 8px;
+            }
+            
+            &::before {
+                content: "";
+                top: 8px;
+            }
+
+            &,
+            &::after,
+            &::before {
+                position: absolute; 
+                width: 32px;
+                height: 2px;
+                background-color: #fff;
+            }
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        max-width: 500px;
+        margin: 0;
+        padding: 0;
+        margin-top: 6px;
+    }
+    
+    &__browser {
+        width: 21px;
+        height: 16px;
+        margin-right: 9px;
+    }
+
+    &__item {
+        position: relative;
+        padding-right: 10px;
+        margin-right: 10px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1px;
+            height: 17px;
+            background-color: #fff;
+        }
+        
+        &:last-child {
+            margin-right: 0;
+            padding-right: 0;
+
+            &::after {
+                display: none;
+            }
+        }
+    }
+    
+    &__link {
+        text-transform: uppercase;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.085em;
+        color: #fff;
+    }
+}
